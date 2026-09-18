@@ -1,0 +1,159 @@
+{
+  "users": [
+    {
+      "id": "u_admin",
+      "name": "مدير الموقع",
+      "email": "admin@mostakshef.local",
+      "passwordHash": "$2a$12$qA0lpgnPxodTpS6AJpnhGePHFbI3kpkhH1HBphV9ecMqyqxLysjsS",
+      "role": "admin",
+      "gradeId": null,
+      "progress": {
+        "l2": true,
+        "l1": true,
+        "lesson_mu7h4xqz_wb5ce": true
+      },
+      "attempts": [
+        {
+          "id": "attempt_mu7hjfbj_f584i",
+          "quizId": "demo",
+          "score": 2,
+          "total": 2,
+          "percent": 100,
+          "passed": true,
+          "at": "2026-09-18T21:43:23.215Z"
+        },
+        {
+          "id": "attempt_mu7hkw5q_8l47t",
+          "quizId": "demo",
+          "score": 2,
+          "total": 2,
+          "percent": 100,
+          "passed": true,
+          "at": "2026-09-18T21:44:31.694Z"
+        }
+      ]
+    },
+    {
+      "id": "u_teacher",
+      "name": "مدرس الدراسات",
+      "email": "teacher@mostakshef.local",
+      "passwordHash": "$2a$12$vYnedsVu3c9GkJUxTxtzYO3JNVzXjgX3mro1KDuqj4jcGMzpTnz4u",
+      "role": "teacher",
+      "gradeId": "prep1",
+      "progress": {},
+      "attempts": []
+    },
+    {
+      "id": "student_mu7ha8fa_xxfqc",
+      "name": "محمد",
+      "email": "ok.mohamed01212056974@gmail.com",
+      "passwordHash": "$2a$12$ELnRGqr.sI7rdyX2/SX4SOrEYnzPF/8JOkA6U0p.oWMmGoGbS5F/m",
+      "role": "student",
+      "gradeId": "primary4",
+      "progress": {
+        "lesson_mu7h4xqz_wb5ce": true
+      },
+      "attempts": []
+    }
+  ],
+  "grades": [
+    {
+      "id": "primary4",
+      "name": "الصف الرابع الابتدائي",
+      "stage": "primary"
+    },
+    {
+      "id": "primary5",
+      "name": "الصف الخامس الابتدائي",
+      "stage": "primary"
+    },
+    {
+      "id": "primary6",
+      "name": "الصف السادس الابتدائي",
+      "stage": "primary"
+    },
+    {
+      "id": "prep1",
+      "name": "الصف الأول الإعدادي",
+      "stage": "preparatory"
+    },
+    {
+      "id": "prep2",
+      "name": "الصف الثاني الإعدادي",
+      "stage": "preparatory"
+    },
+    {
+      "id": "prep3",
+      "name": "الصف الثالث الإعدادي",
+      "stage": "preparatory"
+    }
+  ],
+  "units": [
+    {
+      "id": "unit1",
+      "gradeId": "prep1",
+      "name": "الوحدة الأولى",
+      "description": "مدخل إلى الدراسات الاجتماعية"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "l1",
+      "gradeId": "prep1",
+      "unitId": "unit1",
+      "title": "موقع مصر وأهميته",
+      "summary": "درس تجريبي قابل للتعديل من لوحة التحكم.",
+      "content": "محتوى الدرس هنا. أضف المحتوى الحقيقي من لوحة المدرس."
+    },
+    {
+      "id": "l2",
+      "gradeId": "primary4",
+      "unitId": null,
+      "title": "الخريطة ومكوناتها",
+      "summary": "درس تجريبي.",
+      "content": "محتوى الدرس التجريبي."
+    },
+    {
+      "id": "lesson_mu7h4xqz_wb5ce",
+      "gradeId": "primary4",
+      "unitId": null,
+      "title": "لماذا خلقنا الله",
+      "summary": "",
+      "content": "",
+      "youtubeId": "vRf0IAlqNGQ",
+      "youtubeTitle": "لماذا خلقنا الله"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "demo",
+      "gradeId": "prep1",
+      "lessonId": "l1",
+      "title": "اختبار تجريبي",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "ما القارة التي تقع فيها مصر؟",
+          "options": [
+            "آسيا",
+            "أوروبا",
+            "أفريقيا",
+            "أمريكا الجنوبية"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "q2",
+          "text": "ما الأداة التي تساعد على تمثيل سطح الأرض؟",
+          "options": [
+            "الخريطة",
+            "الميزان",
+            "الساعة",
+            "المسطرة"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}
